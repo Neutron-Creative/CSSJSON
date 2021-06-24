@@ -1,13 +1,12 @@
 {
-  "name": "cssjson",
-  "version": "3.0.0",
+  "name": "css-convert-json",
+  "version": "1.0.4",
   "description": "Converts CSS to JSON and back.",
   "main": "dist/index.js",
-  "types": "dist/src/index.d.ts",
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "npm run lint && npm run test && webpack --mode production && tsc -p ./",
     "lint": "npx eslint '**/*.{ts,js}' --fix",
-    "prepare": "npm run build",
     "prepublishOnly": "npm run build",
     "test": "jest",
     "build:toc": "npx doctoc ./README.md"
@@ -29,25 +28,19 @@
   },
   "license": "MIT",
   "author": {
-    "name": "Aram Kocharyan https://github.com/aramk"
+    "name": "John Carmichael"
   },
   "bugs": {
-    "url": "https://github.com/aramk/CSSJSON/issues"
+    "url": "https://github.com/johndcarmichael/css-convert-json/issues"
   },
-  "homepage": "https://github.com/aramk/CSSJSON",
+  "homepage": "https://github.com/johndcarmichael/css-convert-json",
   "keywords": [
-    "css",
     "json",
-    "json",
-    "to",
-    "css",
-    "json",
-    "to",
     "css",
     "converter"
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/aramk/CSSJSON.git"
+    "url": "https://github.com/johndcarmichael/css-convert-json.git"
   }
 }
